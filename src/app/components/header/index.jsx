@@ -1,6 +1,6 @@
 import styles from "./header.module.css";
 
-export default function Header() {
+const Header = () => {
   return (
     <header className={styles.header}>
       <h1>Sala de Troféus do Corinthians</h1>
@@ -25,4 +25,6 @@ export default function Header() {
       </nav>
     </header>
   );
-}
+};
+
+export default Header;

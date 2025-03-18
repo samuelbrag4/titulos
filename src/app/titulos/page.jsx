@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./titulos.module.css";
-import Header from "../components/header/page";
-import Footer from "../components/footer/page";
+import Header from "../components/header";
+import Footer from "../components/footer";
 
 const CorinthiansTrophiesPage = () => {
   return (
